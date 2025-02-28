@@ -3,7 +3,7 @@ name: Workflow Example
 on:
   push:
     branches:
-      - nombre-de-la-rama
+      - action_b
 
 jobs:
     deploy:
