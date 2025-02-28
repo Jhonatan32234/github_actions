@@ -1,0 +1,16 @@
+name: Workflow Example
+
+on:
+  push:
+    branches:
+      - nombre-de-la-rama
+
+jobs:
+    deploy:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Decir hola
+              run: echo "Hola, mundo!"
+
+            - name: Decir adios
+              run: echo ADIOS
